@@ -1,15 +1,15 @@
 {
-	"name": "n8n-nodes-<...>",
+	"name": "n8n-nodes-buho-vectors",
 	"version": "0.1.0",
-	"description": "",
+	"description": "Custom n8n node for Buho Suite vector API",
 	"license": "MIT",
 	"homepage": "",
 	"keywords": [
-		"n8n-community-node-package"
+		"buho-suite"
 	],
 	"author": {
-		"name": "",
-		"email": ""
+		"name": "Buho Suite",
+		"email": "hello@buhosuite.com"
 	},
 	"repository": {
 		"type": "git",
@@ -30,13 +30,8 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"strict": true,
-		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
-		],
 		"nodes": [
-			"dist/nodes/GithubIssues/GithubIssues.node.js",
-			"dist/nodes/Example/Example.node.js"
+			"dist/nodes/BuhoVectors/BuhoVectors.node.js"
 		]
 	},
 	"devDependencies": {
